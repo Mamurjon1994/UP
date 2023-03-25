@@ -1,0 +1,33 @@
+.box{
+    width: 50px;
+     border: solid 2px brown;
+     text-align: center;
+     color: brown;
+     margin: auto;
+     margin-top: 100px;
+     padding: 5px;
+}
+.box:hover
+i{color: brown;
+animation-name: animatsiya;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-delay: 1;
+position: relative;
+}
+.box:hover
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: transparent;
+}
+@keyframes animatsiya{
+    from{
+        top: 1px;
+    }
+    to{
+        top:-20px;
+    }
+}
